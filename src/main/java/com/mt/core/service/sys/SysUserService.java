@@ -21,7 +21,6 @@ public class SysUserService extends CoreService<SysUser, String> {
                 return false;
             }
             String salt = user.getSalt();
-            // TODO
             return true;
         } catch (Exception e) {
             e.printStackTrace();
